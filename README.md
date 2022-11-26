@@ -7,8 +7,8 @@ The Collatz function can be described as
 $$T(n) =\begin{cases} \frac{n}{2} &\text{if } n \equiv 0 \pmod{2}\\ 3n+1 & \text{if } n\equiv 1 \pmod{2},\end{cases}$$
 <p/>
 we often denote the $k$-th iteration of the Collatz function as $T^{(k)}(n)$, and the Collatz sequence 
-<br/>
+<p/>
 $$C(n)=\{n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n)\}.$$
-<br/>
+<p/>
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
