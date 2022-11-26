@@ -5,7 +5,7 @@ Probably considered one of the hardest and most famous unsolved problems in math
 The Collatz function can be described as
 <br/>
 $$T(n) =\begin{cases} \frac{n}{2} &\text{if } n \equiv 0 \pmod{2}\\ 3n+1 & \text{if } n\equiv 1 \pmod{2},\end{cases}$$
-<br>
+<br/>
 we often denote the $k$-th iteration of the Collatz function as $T^{(k)}(n)$, and the Collatz sequence 
 <br/>
 $$C(n)=\{n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n)\}.$$
