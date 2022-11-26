@@ -10,7 +10,7 @@ we often denote the $k$-th iteration, that is, to apply the Collatz function $k$
 <p/>
 $$C(n)=\{n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n)\}.$$
 <p/>
-The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $S(n)=|C(n)-1|$. 
+The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $S(n)=|C(n)|-1$. 
 <br/>
 Formally, the Collatz conjecture is stating that $min(T^{(k)}(n))=1$ for $n\geq2$, and quivalently, $S(n)$ is finite.
 
