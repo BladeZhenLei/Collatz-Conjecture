@@ -10,6 +10,6 @@ we often denote the $k$-th iteration, that is, to apply the Collatz function $k$
 <p/>
 $$C(n)=\{n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n)\}.$$
 <p/>
-The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $S(n)=|C(n)-1|$.
+The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $S(n)=|C(n)-1|$. Formally, we would say the Collatz conjecture is stating $min{T^{(k)}(n)}=1$ for $n\geq2$
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
