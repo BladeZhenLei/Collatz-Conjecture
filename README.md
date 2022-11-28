@@ -4,7 +4,12 @@ Probably considered one of the hardest and most famous unsolved problems in math
 <p/>
 Then the Collatz function $T(n)$ can be defined as
 <p/> 
-$$T(n)= \begin{cases} \frac{n}{2} & \text{if } n \equiv 0 \pmod{2} \\ 3n+1 & \text{if } n\equiv 1 \pmod{2}, \end{cases}$$
+$$T(n)=
+\begin{cases} 
+\frac{n}{2} & \text{if } n \equiv 0 \pmod{2} 
+\\ 
+3n+1 & \text{if } n\equiv 1 \pmod{2}, 
+\end{cases}$$
 <p/>
 we often denote the $k$-th iteration, that is, to apply the Collatz function $k$ times, as $T^{(k)}(n)$, and the Collatz sequence 
 $$C(n)= \lbrace n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n) \rbrace.$$
