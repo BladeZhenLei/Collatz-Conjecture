@@ -4,11 +4,11 @@ Probably considered one of the hardest and most famous unsolved problems in math
 <p/>
 The Collatz function can be described as
 <p/>
-$$T(n)=\begin{cases}\frac{n}{2} &\text{if } n \equiv 0 \pmod{2}\\ 3n+1 & \text{if } n\equiv 1 \pmod{2},\end{cases}$$
+$$T(n)=\begin{cases}\frac{n}{2} &\text{if} n \equiv 0 \pmod{2}\\ 3n+1 & \text{if } n\equiv 1 \pmod{2},\end{cases}$$
 <p/>
 we often denote the $k$-th iteration, that is, to apply the Collatz function $k$ times, as $T^{(k)}(n)$, and the Collatz sequence 
 <p/>
-$$C(n)=\lbrace{n, T^{(1)}(n), T^{(2)}(n), T^{(3)}(n), ... , T^{(k)}(n)}\rbrace.$$
+$$C(n)={n, T^(1)(n), T^(2)(n), T^(3)(n), ... , T^(k)(n)}.$$
 <p/>
 The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $S(n)=|C(n)|-1$. 
 <br/>
