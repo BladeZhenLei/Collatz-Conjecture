@@ -5,7 +5,7 @@ The Collatz function can be defined as $T(n)=\frac{n}{2}$ if $n \equiv 0 \pmod{2
 <p/>
 The stopping time, $S(n)$, namely the number of steps to reach 1, is then the length of Collatz sequence minus 1, or $|C(n)|-1$, and the Collatz conjecture is stating that there exist a finite $k$ such that $min(T^{(k)}(n))=1$ for $n\geq2$, in other words, $S(n)$ is finite.
 
-### First Look of S(N)
+### Irregular behaviour of S(N)
 
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
