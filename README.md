@@ -11,6 +11,6 @@ Below is a plot of $S(n)$ for $1\leq{n}\leq{10000}$.
 <h3>The Irregular behaviour of $S(N)$</h3>
 It seems like there is almost a logarithmic pattern in there, but not quite...
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205471247-328e1d3e-263e-4c72-9a0f-bb69c515e257.png" width="500" height="350"> <p/>
-
+Using the log-log plot, we see that
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
