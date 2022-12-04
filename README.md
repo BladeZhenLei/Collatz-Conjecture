@@ -6,7 +6,8 @@ The Collatz function can be defined as $T(n)=\frac{n}{2}$ if $n \equiv 0 \pmod{2
 Then the stopping time $S(n)$ is said to be the length of $C(n)$ minus 1, and the Collatz conjecture asserts that all $S(n)$ is finite for all $n\geq{2}$.
 <p/>
 Below is a plot of $S(n)$ for $1\leq{n}\leq{10000}$.
-<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/204690527-18770b2f-e51b-4647-98f8-753be28f24db.png" width="500" height="350"> <p/>
+<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472558-b2fabe57-7635-4ab1-b0ca-e4ae3d20c849.png" width="500" height="350"> <p/>
+
 
 <h3>The Irregular behaviour of $S(N)$</h3>
 It seems like there is almost a logarithmic pattern in there, but not quite...by switching to the log-log plot, the dots are almost aligned on some lattices, however, shifting aways.
