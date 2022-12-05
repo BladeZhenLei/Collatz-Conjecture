@@ -12,7 +12,7 @@ Plot below shows $S(n)$ for $1\leq{n}\leq{10000}$.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472558-b2fabe57-7635-4ab1-b0ca-e4ae3d20c849.png" width="500" height="350"> <p/>
 
 <h3>The Irregular behaviour of $S(N)$</h3>
-Interestingly, it seems like there is almost a logarithmic pattern, but not quite...by switching to the $log(x)-y$ plot, the dots are almost aligned on some lattices, however, shifted aways.
+Interestingly, it seems like there is almost a logarithmic pattern, but not quite...by switching to the $log(x)-y$ plot, the dots are aligned on some lattices, however, shifted aways.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
 
 
