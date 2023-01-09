@@ -11,22 +11,19 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
 
 <p align="center">
-
 | n  |  S(n)  | E(n) | O(n) |
-| ----- |:---------:| -----:| -----:|
-| 1 | right-aligned | $1600 | right-aligned |
-| 2 | centered      |   $12 | right-aligned |
-| 3 | are neat      |    $1 | right-aligned |
-| 4  | right-aligned | $1600 | right-aligned |
-| 5  | centered      |   $12 | right-aligned |
-| 6 | are neat      |    $1 | right-aligned |
-| 7 | right-aligned | $1600 | right-aligned |
-| 8 | centered      |   $12 | right-aligned |
-| 9 | are neat      |    $1 | right-aligned |
-| 10 | right-aligned | $1600 | right-aligned |
+| ----- |:----:| -----:| -----:|
+| 1 | 0 | $1600 | right-aligned |
+| 2 | 1 |   $12 | right-aligned |
+| 3 | 7 |    $1 | right-aligned |
+| 4  | 2 | $1600 | right-aligned |
+| 5  | 5  |   $12 | right-aligned |
+| 6 | 8 |    $1 | right-aligned |
+| 7 | 16 | $1600 | right-aligned |
+| 8 | 3 | $1600 | right-aligned |
+| 9 | 19 | $1600 | right-aligned |
+| 10 | 6 | $1600 | right-aligned |
 | ...   |....  |  ... | ... |
-
-
 </p>
   
   
