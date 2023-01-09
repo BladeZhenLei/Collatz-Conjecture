@@ -12,19 +12,19 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 
 <p align="center">
 
-| n       |  S(n)  | Cool  |
+| n       |  S(n)  | |E(n)| | |O(n)| |
 | ------------- |:-------------:| -----:|
-| 1 | right-aligned | $1600 |
-| 2 | centered      |   $12 |
-| 3 | are neat      |    $1 |
-| 4  | right-aligned | $1600 |
-| 5  | centered      |   $12 |
-| 6 | are neat      |    $1 |
-| 7 | right-aligned | $1600 |
-| 8 | centered      |   $12 |
-| 9 | are neat      |    $1 |
-| 10 | right-aligned | $1600 |
-| ...   |....  |  ... |
+| 1 | right-aligned | $1600 | right-aligned |
+| 2 | centered      |   $12 | right-aligned |
+| 3 | are neat      |    $1 | right-aligned |
+| 4  | right-aligned | $1600 | right-aligned |
+| 5  | centered      |   $12 | right-aligned |
+| 6 | are neat      |    $1 | right-aligned |
+| 7 | right-aligned | $1600 | right-aligned |
+| 8 | centered      |   $12 | right-aligned |
+| 9 | are neat      |    $1 | right-aligned |
+| 10 | right-aligned | $1600 | right-aligned |
+| ...   |....  |  ... | ... |
 
 
 </p>
