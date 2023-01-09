@@ -9,7 +9,7 @@ Then the stopping time $S(n)$ is said to be the length of $C(n)$ minus 1, and th
 <h3>The Irregular behaviour of $S(n)$</h3>
 Interestingly, it seems like there is almost a logarithmic pattern, but not quite...by switching to the $log(x)-y$ plot, the dots are aligned on some lattices, however, shifted aways.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
-
+If we define $E(n)$ as number of even terms and $O(n)$ as number of odd terms in $C(n)$, then
 | n  |  S(n)  | E(n) | O(n) |
 | ----- |:----:| -----:| -----:|
 | 1 | 0 | 0 | 0 |
@@ -23,7 +23,7 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 | 9 | 19 | 13 | 6 |
 | 10 | 6 | 5 | 1 |
 | ... | ... | ... | ... |
-  
+and some explicit formulas can be derived.
   
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
 
