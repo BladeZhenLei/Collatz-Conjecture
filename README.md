@@ -12,17 +12,17 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 
 | n  |  S(n)  | E(n) | O(n) |
 | ----- |:----:| -----:| -----:|
-| 1 | 0 | 0 | right-aligned |
-| 2 | 1 | 1 | right-aligned |
-| 3 | 7 | 5 | right-aligned |
-| 4  | 2 | 2 | right-aligned |
-| 5  | 5  | 4 | right-aligned |
-| 6 | 8 | 6 | right-aligned |
-| 7 | 16 | 11 | right-aligned |
-| 8 | 3 | 3| right-aligned |
-| 9 | 19 | 13 | right-aligned |
-| 10 | 6 | 5 | right-aligned |
-| ... | .... | ... | ... |
+| 1 | 0 | 0 | 0 |
+| 2 | 1 | 1 | 0 |
+| 3 | 7 | 5 | 2 |
+| 4  | 2 | 2 | 0 |
+| 5  | 5 | 4 | 1 |
+| 6 | 8 | 6 | 2 |
+| 7 | 16 | 11 | 5 |
+| 8 | 3 | 3| 0 |
+| 9 | 19 | 13 | 6 |
+| 10 | 6 | 5 | 1 |
+| ... | ... | ... | ... |
   
   
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
