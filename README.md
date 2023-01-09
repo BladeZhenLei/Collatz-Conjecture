@@ -12,3 +12,33 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline
+  $\textbf{S(n)}$ & $\textbf{n}$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ \\[1.5ex] \hline
+  
+   1 & \:\: 2 \:\: & \:\:\:\: & \:\:\:\: & \:\:\:\: & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ \\[1.5ex] \hline
+   
+   2 & 4 & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ \\[1.5ex] \hline
+   
+   3 & 8 & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   4 & 16 & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   5 & 5 & \:\:32\:\: & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   6 & 10 & 64 & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   7 & 3 & 20 & \:\:21\:\: & \:128\: & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   8 & 6 & 40 & 42 & 256 & $\:$ & $\:$ & $\:$ & $\:$ & $\:$ & $\:$\\[1.5ex] \hline
+   
+   9 & 12 & 13 & 80 & 84 & \:\:85\:\: & 512 & $\:$ & $\:$ & $\:$ & $\:$ \\[1.5ex] \hline
+   
+   10 & 24 & 26 & 160 & 168 & 170 & 1024 & $\;\;$ & $\:\:$ & $\:\:$ & $\:\:$ \\[1.5ex] \hline
+   
+   11 & 48 & 52 & 53 & 320 & 336 & 340 & \:341\: & 2048 & $\:\:\:\:\:\:\:\:$ & $\:\:\:\:\:\:\:\:$ \\[1.5ex] \hline
+   
+   \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\[1.5ex] \hline
+\end{tabular}
+\end{center}
