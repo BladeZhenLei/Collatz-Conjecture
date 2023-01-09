@@ -13,7 +13,7 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 <p align="center">
 
 | n       |  S(n)  | |E(n)| | |O(n)| |
-| ------------- |:-------------:| -----:|
+| ------------- |:---------:| -----:| -----:|
 | 1 | right-aligned | $1600 | right-aligned |
 | 2 | centered      |   $12 | right-aligned |
 | 3 | are neat      |    $1 | right-aligned |
