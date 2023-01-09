@@ -12,8 +12,9 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 If we define $E(n)$ as number of even terms and $O(n)$ as number of odd terms in $C(n)$, then and some explicit relationships can be observed.
 <br/>
 First, we have 
-$$ S(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}). $$
-
+$$S(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
+then,
+$$S(n)=\ceil{log_2(6^{|O(n)|}\cdot{n})}.$$
   
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
 
