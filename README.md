@@ -16,7 +16,7 @@ $$S(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
 then, let
 $$\epsilon(n)=\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}=\prod_{q\,\in\,{O(n)}}\frac{3q+1}{3q},$$
 it is tested that for all $n\leq{10^7}$, there is
-$$\epsilon(n)\leq\epsilon(993)\leq2305843009213693952/1840049047529878113,$$
+$$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 where $\epsilon(n)$ is called 'height' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the upper bound. 
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
