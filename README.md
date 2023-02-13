@@ -20,8 +20,8 @@ this error term can be interpreted as a product over all odd terms.
 It is computer verified that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 and $\epsilon(n)$ is called the 'residue' of the sequence. 
-<br/>
-Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the absolute upper bound. 
+<p/>
+Heuristics highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\approx1.25314$ is the absolute upper bound.
 <p/>
 
 <h3>Distance of Power of $2$ and $3$</h3>
