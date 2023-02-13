@@ -16,9 +16,10 @@ First, we have a trivial expansion
 $$S(n)=|E(n)|+|O(n)|=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
 then, let
 $$\epsilon(n)=\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}=\prod_{q\,\in\,{O(n)}}\frac{3q+1}{3q},$$
-it is tested that for all $n\leq{10^7}$, there is
+this error term can be interpreted as a product over all odd terms.
+It is computer verified that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
-where $\epsilon(n)$ is called 'residue' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the upper bound for the residue. 
+and $\epsilon(n)$ is called the 'residue' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the absolute upper bound for $\epsilon(n)$. 
 <p/>
 
 <h3>Distance of Power of $2$ and $3$</h3>
