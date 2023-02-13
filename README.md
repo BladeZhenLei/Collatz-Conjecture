@@ -19,6 +19,8 @@ it is tested that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 where $\epsilon(n)$ is called 'residue' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the upper bound for the residue. 
 <p/>
+
+<h3>Gap of Power 2 and 3</h3>
 Now in the case 
 $$\epsilon(n)=\frac{2^{a}}{3^{b}},$$
 this is related to Baker's Theorem, namely
