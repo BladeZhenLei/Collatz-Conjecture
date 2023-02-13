@@ -11,13 +11,14 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
 If we define $E(n)$ as the even terms and $O(n)$ as the odd terms in $C(n)$, then some explicit relationships can be observed.
 <br/>
-First, we have a trivial expansion of 
+First, we have a trivial expansion 
 $$S(n)=E(n)+O(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
 then, let
 $$\epsilon(n)=\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}=\prod_{q\,\in\,{O(n)}}\frac{3q+1}{3q},$$
 it is tested that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 where $\epsilon(n)$ is called 'residue' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the upper bound for the residue. 
-
+<p/>
+Now in the case $\epsilon(n)=\frac{2^{a}}{3^{b}}$, this is related to Baker's Theorem, where $|2^{a}-3^{b}|$ goes infinity. 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
 
