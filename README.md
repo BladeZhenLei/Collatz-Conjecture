@@ -19,6 +19,10 @@ it is tested that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 where $\epsilon(n)$ is called 'residue' of the sequence. Heuristics highly suggests that $\epsilon(993)\approx1.25314$ is the upper bound for the residue. 
 <p/>
-Now in the case $\epsilon(n)=\frac{2^{a}}{3^{b}}$, this is related to Baker's Theorem, where $|2^{a}-3^{b}|$ goes infinity. 
+Now in the case 
+$$\epsilon(n)=\frac{2^{a}}{3^{b}},$$
+this is related to Baker's Theorem, where 
+$$|2^{a}-3^{b}|$$ 
+goes infinity. 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
 
