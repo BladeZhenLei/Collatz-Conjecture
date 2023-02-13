@@ -12,7 +12,7 @@ Interestingly, it seems like there is almost a logarithmic pattern, but not quit
 If we define $E(n)$ as the even terms and $O(n)$ as the odd terms in $C(n)$, then some explicit relationships can be observed.
 <br/>
 First, we have a trivial expansion 
-$$S(n)=E(n)+O(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
+$$S(n)=|E(n)|+|O(n)|=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
 then, let
 $$\epsilon(n)=\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}=\prod_{q\,\in\,{O(n)}}\frac{3q+1}{3q},$$
 it is tested that for all $n\leq{10^7}$, there is
