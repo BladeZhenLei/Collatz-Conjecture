@@ -9,10 +9,10 @@ Then the stopping time $S(n)$ is said to be the length of $C(n)$ minus 1, and th
 <h3>The Irregular behaviour of $S(n)$</h3>
 Interestingly, it seems like there is almost a logarithmic pattern, but not quite...by switching to the $log(x)-y$ plot, the dots are aligned on some lattices, however, shifted aways.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
-If we define $E(n)$ as the even terms and $O(n)$ as the odd terms in $C(n)$, then and some explicit relationships can be observed.
+If we define $E(n)$ as the even terms and $O(n)$ as the odd terms in $C(n)$, then some explicit relationships can be observed.
 <br/>
-First, we have 
-$$S(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
+First, we have a trivial expansion of 
+$$S(n)=E(n)+O(n)=log_2(6^{|O(n)|}\cdot{n})+log_2(\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}),$$
 then, let
 $$\epsilon(n)=\frac{2^{|E(n)|}}{n\cdot{3^{|O(n)|}}}=\prod_{q\,\in\,{O(n)}}\frac{3q+1}{3q},$$
 it is tested that for all $n\leq{10^7}$, there is
