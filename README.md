@@ -7,6 +7,7 @@ The Collatz function can be defined as $T(n)=\frac{n}{2}$ if $n \equiv 0 \pmod{2
 Then the stopping time $S(n)$ is said to be the length of $C(n)$ minus 1, and the Collatz conjecture asserts that $S(n)$ is finite for all $n\geq{2}$. For Example, $C(3)=\lbrace 3, 10, 5, 16, 8, 4, 2, 1 \rbrace$, and $S(3)=|C(3)|-1=7$.  Plot below shows $S(n)$ for $1\leq{n}\leq{10000}$.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472558-b2fabe57-7635-4ab1-b0ca-e4ae3d20c849.png" width="500" height="350"> <p/>
 
+
 <h3>The Irregular behaviour of $S(n)$</h3>
 Interestingly, it seems like there is almost a logarithmic pattern, but not quite...by switching to the $log(x)-y$ plot, the dots are aligned on some lattices, however, shifted aways.
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/205472604-ce2e8c30-79be-4f58-8515-69658587755a.png" width="500" height="350"> <p/>
@@ -21,8 +22,9 @@ It is computer verified that for all $n\leq{10^7}$, there is
 $$\epsilon(n)\leq\epsilon(993)=2305843009213693952/1840049047529878113,$$
 and $\epsilon(n)$ is called the 'residue' of the sequence. 
 <p/>
-Heuristics highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\approx1.25314$ is the absolute upper bound for all Collatz sequence.
+Heuristics highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\approx1.25314$ is the absolute upper bound for all Collatz sequence, if the conjecture holds true.
 <p/>
+
 
 <h3>Distance of Power of $2$ and $3$</h3>
 Now in the case 
