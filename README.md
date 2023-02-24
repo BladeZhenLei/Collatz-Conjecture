@@ -25,16 +25,12 @@ and $\epsilon(n)$ is called the 'residue' of the sequence.
 Heuristic studies highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\approx1.25314$ is the absolute upper bound for all Collatz sequence, as far as the conjecture holds true.
 <p/>
 
-
-<h3>Distance of Power of $2$ and $3$</h3>
-Now in the case 
-$$\epsilon(n)=\frac{2^{a}}{3^{b}},$$
-this is related to Baker's Theorem, namely
-$$|2^{a}-3^{b}|\geq\frac{\max(2^a,3^b)}{(e\max(a,b))^C},$$
-where $C$ is an effectively computable constant. 
+<h3>Convergent Cycles</h3>
+Let M be a positive integer, and let D(M) be the fraction of numbers < M that do not have finite stopping time. Then the limit of D(M) for M → ∞ is equal to 0.
+<br/>
+This is the famous Terras Theorem, where it shows almost all Collatz trajectories are convergent.
 <p/>
-This further reduces to
-$$|2^{a}-3^{b}|\geq\frac{2^a}{(e\cdot{a})^C},$$
+
 
 
 
