@@ -26,9 +26,14 @@ Heuristic studies highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\ap
 <p/>
 
 <h3>Finiteness of Stopping Time</h3>
-In 1976 Riho Terras made an important advancement in this problem, stating that the fraction of numbers that do not have finite stopping time is approaching $0$ as $n\rightarrow{\infty}$. This is called the Terras Theorem, where it shows almost all Collatz sequences are convergent. This approach was further improved by Terence Tao in 2019.
+In 1976 Riho Terras made an important advancement in this problem, stating that the fraction of numbers that do not have finite stopping time is approaching $0$ as $n\rightarrow{\infty}$. This is called the Terras Theorem, where it shows 'almost all' Collatz sequences are convergent. This approach was further improved by Terence Tao in 2019.
 <p/>
 Basically, if one can prove that non-trivial cycle in fact does not exist, then this would prove a weaker version of the Collatz Conjecture. Eliahou (1993) used a diffrent method based on Diophatine approximation of $log(3)/log(2)$, where its expansion has Farey sequences satisfying a lower bound of 17087915 for a Collatz cycle to exist.
+
+<h3>Mystery Unsovled</h3>
+Several generalized versions of Collatz Conjecture have been proven to be undecidable, i.e., Conway (1972), meaning that our modern mathematics is too pity that it is unable to provide a yes-or-no answer to such problems.
+<p/>
+It is beyond human ability! How foolish are we!
 
 
 <p/><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script></head>
