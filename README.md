@@ -31,7 +31,10 @@ Now in the case
 $$\epsilon(n)=\frac{2^{a}}{3^{b}},$$
 this is related to Baker's Theorem, namely
 $$|2^{a}-3^{b}|\geq\frac{\max(2^a,3^b)}{(e\max(a,b))^C},$$
-where $C$ is an effectively computable constant.
+where $C$ is an effectively computable constant. 
+<p/>
+This further reduces to
+$$|2^{a}-3^{b}|\geq\frac{2^a}{(e\cdot{a})^C},$$
 
 
 
