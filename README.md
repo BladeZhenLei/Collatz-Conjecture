@@ -26,7 +26,7 @@ Heuristic studies highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\ap
 <p/>
 
 <h3>Convergent Cycles</h3>
-Let M be a positive integer, and let D(M) be the fraction of numbers < M that do not have finite stopping time. Then the limit of D(M) for M → ∞ is equal to 0.
+"Let M be a positive integer, and let D(M) be the fraction of numbers < M that do not have finite stopping time. Then the limit of D(M) for M → ∞ is equal to 0."
 <br/>
 This is the famous Terras Theorem, where it shows almost all Collatz trajectories are convergent.
 <p/>
