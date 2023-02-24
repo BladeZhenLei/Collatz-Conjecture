@@ -25,7 +25,7 @@ and $\epsilon(n)$ is called the 'residue' of the sequence.
 Heuristic studies highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\approx1.25314$ is the absolute upper bound for all Collatz sequence, as far as the conjecture holds true.
 <p/>
 
-<h3>Convergent Cycles</h3>
+<h3>Finiteness of Stopping Time</h3>
 In 1976 Riho Terras made an important advancement in this problem, stating that the fraction of numbers that do not have finite stopping time is approaching $0$ as $n\rightarrow{\infty}$. This is called the Terras Theorem, where it essentially shows almost all Collatz sequences are convergent.
 <p/>
 
