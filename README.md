@@ -26,9 +26,7 @@ Heuristic studies highly suggests that $\epsilon(993)=\epsilon(993\cdot{2^k})\ap
 <p/>
 
 <h3>Convergent Cycles</h3>
-In 1976 Riho Terras made an important advancement in this problem, stating that the fraction of numbers that do not have finite stopping time is approaching $0$ as $n\rightarrow{\infty}$.
-<br/>
-This is called Terras Theorem, where it shows almost all Collatz trajectories are convergent.
+In 1976 Riho Terras made an important advancement in this problem, stating that the fraction of numbers that do not have finite stopping time is approaching $0$ as $n\rightarrow{\infty}$. This is called the Terras Theorem, where it essentially shows almost all Collatz sequences are convergent.
 <p/>
 
 
