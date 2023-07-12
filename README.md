@@ -30,7 +30,7 @@ In 1976 Riho Terras made an important advancement in this problem, stating that 
 Basically, if one can prove that non-trivial cycle in fact does not exist, then this would prove a weaker version of the Collatz Conjecture. Eliahou (1993) used a diffrent method based on Diophatine approximation of $log(3)/log(2)$, where its expansion has Farey sequences satisfying a lower bound of 17087915 for a non-trivial Collatz cycle to exist.
 
 <h3>Mystery Unsovled</h3>
-Several generalized versions of Collatz Conjecture have been proven to be undecidable, i.e., Conway (1972), meaning that our modern mathematics is too pity that it is unable to provide a yes-or-no answer to such problems. It is however, not yet identified whether the original $3X+1$ problem is decidable or not.
+Several generalized versions of Collatz Conjecture have been proven to be 'undecidable', i.e., Conway (1972), meaning that our modern mathematics is completely useless as to provide a yes-or-no answer to such problems. However, it is not yet identified whether the original $3X+1$ problem is decidable.
 <p/>
 
 
